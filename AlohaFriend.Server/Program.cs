@@ -23,7 +23,7 @@ namespace AlohaFriend.Server
                 var bindingAddress = "http://127.0.0.1:15100/";
                 var httpServer = new HttpListener();
                 httpServer.Prefixes.Add(bindingAddress);
-                httpServer.Start();
+                httpServer.Start() ;
 
                 while (true)
                 {
